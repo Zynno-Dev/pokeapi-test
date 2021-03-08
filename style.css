@@ -1,0 +1,52 @@
+* {
+  font-family: 'DotGothic16', sans-serif;
+  text-align: center;
+}
+body{
+  background:url("light.jpg");
+  background-repeat: repeat;
+}
+h1 {
+    font-size: 450%;
+    display: block;
+    text-align: center;
+}
+h3 {
+    font-size: 200%;
+    display: block;
+    text-align: center;
+    margin-top: -23px;
+}
+input {
+  text-align: center;
+  padding: auto + 10px;
+  width: 20vw;
+}
+.btn{
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+a:link {
+  text-decoration: none;
+  color: #204954;
+  }
+  a:visited {
+  text-decoration: none;
+  color: #999999;
+  }
+  a:hover {
+  text-decoration: none;
+  color: #408A9F;
+  }
+  a:active {
+  text-decoration: none;
+  }
